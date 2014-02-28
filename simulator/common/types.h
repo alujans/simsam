@@ -1,8 +1,8 @@
 
-typedef struct {
+struct instruction {
     int codop;
     int r1, r2, r3;
-}intruction;
+};
 
 struct if_to_id_reg{
     int codop;
@@ -16,6 +16,7 @@ struct id_to_alu_reg{
 };
 
 struct alu_to_os_reg{
+    int w;
     int res;
     int dest;
 };
