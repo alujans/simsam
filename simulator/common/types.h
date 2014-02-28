@@ -9,14 +9,15 @@ struct if_to_id_reg{
     int r1, r2, r3;
 };
 
-struct id_to_alu_reg{
+struct id_to_exe_reg{
     int codop;
     int rdest;
-    int op1, op2;
+    int op1;
+    int op2;
 };
 
-struct alu_to_os_reg{
+struct exe_to_wb_reg{
+    int rdest;
+    int data;
     int w;
-    int res;
-    int dest;
 };
