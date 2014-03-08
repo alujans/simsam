@@ -1,4 +1,5 @@
-
+#ifndef _VALUESH_
+#define _VALUESH_
 //El banco de registros tiene 16 registros de numeros enteros de 32 bits cada uno.
 #define REGB_SIZE 16
 
@@ -8,3 +9,4 @@
 //La memoria de instrucciones tiene capacidad para 32 instrucciones de 32 bits 
 #define IMEMB_SIZE 32
 
+#endif

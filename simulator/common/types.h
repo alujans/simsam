@@ -1,7 +1,8 @@
-
+#ifndef _TYPESH_
+#define _TYPESH_
 struct instruction {
     int codop;
-    int r1, r2, r3;
+    int args[3]; 
 };
 
 struct if_to_id_reg{
@@ -21,3 +22,4 @@ struct exe_to_wb_reg{
     int data;
     int w;
 };
+#endif
