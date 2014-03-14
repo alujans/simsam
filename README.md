@@ -1,6 +1,8 @@
 simsam
 ======
 
+PIPELINED VERSION
+
 Processor stages simulator
 
 
@@ -13,3 +15,5 @@ Operation codes:
 4 - sw
 5 - nop
 6 - trap
+
+
